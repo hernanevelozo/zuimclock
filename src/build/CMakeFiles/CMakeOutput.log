@@ -11,7 +11,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/aldebaran/display/test/build/CMakeFiles/3.24.0/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/aldebaran/display/zuim-clock/build/CMakeFiles/3.24.0/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ 
@@ -24,7 +24,7 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/aldebaran/display/test/build/CMakeFiles/3.24.0/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/aldebaran/display/zuim-clock/build/CMakeFiles/3.24.0/CompilerIdCXX/a.out"
 
 Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
 xtensa-esp32-elf-gcc (crosstool-NG esp-2022r1) 11.2.0
@@ -33,9 +33,9 @@ This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/aldebaran/display/test/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aldebaran/display/zuim-clock/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/aldebaran/Appdata/Esp/espressif/tools/ninja/1.10.2/ninja cmTC_5244f && [1/2] Building C object CMakeFiles/cmTC_5244f.dir/CMakeCCompilerABI.c.obj
+Run Build Command(s):/home/aldebaran/Appdata/Esp/espressif/tools/ninja/1.10.2/ninja cmTC_00c55 && [1/2] Building C object CMakeFiles/cmTC_00c55.dir/CMakeCCompilerABI.c.obj
 Using built-in specs.
 COLLECT_GCC=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
 Target: xtensa-esp32-elf
@@ -43,8 +43,8 @@ Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/gcc/config
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (crosstool-NG esp-2022r1) 
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_5244f.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_5244f.dir/'
- /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/cc1 -quiet -v -iprefix /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/ /home/aldebaran/Appdata/Esp/espressif/tools/cmake/3.24.0/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_5244f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlongcalls -Wno-frame-address -version -o /tmp/ccU1XTBi.s
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_00c55.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_00c55.dir/'
+ /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/cc1 -quiet -v -iprefix /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/ /home/aldebaran/Appdata/Esp/espressif/tools/cmake/3.24.0/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_00c55.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlongcalls -Wno-frame-address -version -o /tmp/ccUP1WQU.s
 GNU C17 (crosstool-NG esp-2022r1) version 11.2.0 (xtensa-esp32-elf)
 	compiled by GNU C version 4.9.2, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -65,12 +65,12 @@ GNU C17 (crosstool-NG esp-2022r1) version 11.2.0 (xtensa-esp32-elf)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 653dc93e89b654627e5b7db857721226
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_5244f.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_5244f.dir/'
- /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_5244f.dir/CMakeCCompilerABI.c.obj /tmp/ccU1XTBi.s
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_00c55.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_00c55.dir/'
+ /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_00c55.dir/CMakeCCompilerABI.c.obj /tmp/ccUP1WQU.s
 COMPILER_PATH=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/bin/
 LIBRARY_PATH=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_5244f.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_5244f.dir/CMakeCCompilerABI.c.'
-[2/2] Linking C executable cmTC_5244f
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_00c55.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_00c55.dir/CMakeCCompilerABI.c.'
+[2/2] Linking C executable cmTC_00c55
 Using built-in specs.
 COLLECT_GCC=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
 COLLECT_LTO_WRAPPER=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/lto-wrapper
@@ -81,9 +81,9 @@ Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (crosstool-NG esp-2022r1) 
 COMPILER_PATH=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/bin/
 LIBRARY_PATH=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_5244f' '-dumpdir' 'cmTC_5244f.'
- /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/collect2 -plugin /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/liblto_plugin.so -plugin-opt=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccaO4ynJ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_5244f /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crti.o /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtbegin.o -L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0 -L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_5244f.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtend.o /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtn.o
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_5244f' '-dumpdir' 'cmTC_5244f.'
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_00c55' '-dumpdir' 'cmTC_00c55.'
+ /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/collect2 -plugin /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/liblto_plugin.so -plugin-opt=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfpDnh5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_00c55 /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crti.o /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtbegin.o -L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0 -L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_00c55.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtend.o /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtn.o
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_00c55' '-dumpdir' 'cmTC_00c55.'
 
 
 
@@ -104,9 +104,9 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/aldebaran/display/test/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/aldebaran/display/zuim-clock/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/home/aldebaran/Appdata/Esp/espressif/tools/ninja/1.10.2/ninja cmTC_5244f && [1/2] Building C object CMakeFiles/cmTC_5244f.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Run Build Command(s):/home/aldebaran/Appdata/Esp/espressif/tools/ninja/1.10.2/ninja cmTC_00c55 && [1/2] Building C object CMakeFiles/cmTC_00c55.dir/CMakeCCompilerABI.c.obj]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc]
   ignore line: [Target: xtensa-esp32-elf]
@@ -114,8 +114,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 11.2.0 (crosstool-NG esp-2022r1) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_5244f.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_5244f.dir/']
-  ignore line: [ /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/cc1 -quiet -v -iprefix /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/ /home/aldebaran/Appdata/Esp/espressif/tools/cmake/3.24.0/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_5244f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlongcalls -Wno-frame-address -version -o /tmp/ccU1XTBi.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_00c55.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_00c55.dir/']
+  ignore line: [ /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/cc1 -quiet -v -iprefix /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/ /home/aldebaran/Appdata/Esp/espressif/tools/cmake/3.24.0/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_00c55.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlongcalls -Wno-frame-address -version -o /tmp/ccUP1WQU.s]
   ignore line: [GNU C17 (crosstool-NG esp-2022r1) version 11.2.0 (xtensa-esp32-elf)]
   ignore line: [	compiled by GNU C version 4.9.2  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -136,12 +136,12 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 653dc93e89b654627e5b7db857721226]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_5244f.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_5244f.dir/']
-  ignore line: [ /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_5244f.dir/CMakeCCompilerABI.c.obj /tmp/ccU1XTBi.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_00c55.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_00c55.dir/']
+  ignore line: [ /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_00c55.dir/CMakeCCompilerABI.c.obj /tmp/ccUP1WQU.s]
   ignore line: [COMPILER_PATH=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/bin/]
   ignore line: [LIBRARY_PATH=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_5244f.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_5244f.dir/CMakeCCompilerABI.c.']
-  ignore line: [[2/2] Linking C executable cmTC_5244f]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_00c55.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_00c55.dir/CMakeCCompilerABI.c.']
+  ignore line: [[2/2] Linking C executable cmTC_00c55]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/lto-wrapper]
@@ -152,27 +152,27 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 11.2.0 (crosstool-NG esp-2022r1) ]
   ignore line: [COMPILER_PATH=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/bin/]
   ignore line: [LIBRARY_PATH=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_5244f' '-dumpdir' 'cmTC_5244f.']
-  link line: [ /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/collect2 -plugin /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/liblto_plugin.so -plugin-opt=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccaO4ynJ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_5244f /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crti.o /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtbegin.o -L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0 -L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_5244f.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtend.o /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_00c55' '-dumpdir' 'cmTC_00c55.']
+  link line: [ /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/collect2 -plugin /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/liblto_plugin.so -plugin-opt=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfpDnh5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_00c55 /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crti.o /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtbegin.o -L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0 -L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_00c55.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtend.o /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtn.o]
     arg [/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccaO4ynJ.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccfpDnh5.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_5244f] ==> ignore
+    arg [cmTC_00c55] ==> ignore
     arg [/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib/crt0.o] ==> obj [/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib/crt0.o]
     arg [/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crti.o] ==> obj [/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crti.o]
     arg [/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtbegin.o] ==> obj [/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtbegin.o]
     arg [-L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0] ==> dir [/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0]
     arg [-L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc]
     arg [-L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib]
-    arg [CMakeFiles/cmTC_5244f.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [CMakeFiles/cmTC_00c55.dir/CMakeCCompilerABI.c.obj] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-lc] ==> lib [c]
     arg [-lnosys] ==> lib [nosys]
@@ -195,9 +195,9 @@ Parsed C implicit link information from above output:
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/aldebaran/display/test/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aldebaran/display/zuim-clock/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/aldebaran/Appdata/Esp/espressif/tools/ninja/1.10.2/ninja cmTC_05260 && [1/2] Building CXX object CMakeFiles/cmTC_05260.dir/CMakeCXXCompilerABI.cpp.obj
+Run Build Command(s):/home/aldebaran/Appdata/Esp/espressif/tools/ninja/1.10.2/ninja cmTC_42f4a && [1/2] Building CXX object CMakeFiles/cmTC_42f4a.dir/CMakeCXXCompilerABI.cpp.obj
 Using built-in specs.
 COLLECT_GCC=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++
 Target: xtensa-esp32-elf
@@ -205,8 +205,8 @@ Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/gcc/config
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (crosstool-NG esp-2022r1) 
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_05260.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_05260.dir/'
- /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/cc1plus -quiet -v -iprefix /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/ /home/aldebaran/Appdata/Esp/espressif/tools/cmake/3.24.0/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_05260.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlongcalls -Wno-frame-address -version -o /tmp/ccaOwdTT.s
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_42f4a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_42f4a.dir/'
+ /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/cc1plus -quiet -v -iprefix /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/ /home/aldebaran/Appdata/Esp/espressif/tools/cmake/3.24.0/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_42f4a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlongcalls -Wno-frame-address -version -o /tmp/ccObgyFz.s
 GNU C++17 (crosstool-NG esp-2022r1) version 11.2.0 (xtensa-esp32-elf)
 	compiled by GNU C version 4.9.2, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -233,12 +233,12 @@ GNU C++17 (crosstool-NG esp-2022r1) version 11.2.0 (xtensa-esp32-elf)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 69ef0c26a581aece6835fdfb15e451af
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_05260.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_05260.dir/'
- /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_05260.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccaOwdTT.s
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_42f4a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_42f4a.dir/'
+ /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_42f4a.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccObgyFz.s
 COMPILER_PATH=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/bin/
 LIBRARY_PATH=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_05260.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_05260.dir/CMakeCXXCompilerABI.cpp.'
-[2/2] Linking CXX executable cmTC_05260
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_42f4a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_42f4a.dir/CMakeCXXCompilerABI.cpp.'
+[2/2] Linking CXX executable cmTC_42f4a
 Using built-in specs.
 COLLECT_GCC=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++
 COLLECT_LTO_WRAPPER=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/lto-wrapper
@@ -249,9 +249,9 @@ Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (crosstool-NG esp-2022r1) 
 COMPILER_PATH=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/bin/
 LIBRARY_PATH=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_05260' '-dumpdir' 'cmTC_05260.'
- /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/collect2 -plugin /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/liblto_plugin.so -plugin-opt=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccP6zWlI.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_05260 /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crti.o /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtbegin.o -L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0 -L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_05260.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtend.o /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtn.o
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_05260' '-dumpdir' 'cmTC_05260.'
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_42f4a' '-dumpdir' 'cmTC_42f4a.'
+ /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/collect2 -plugin /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/liblto_plugin.so -plugin-opt=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccf2xHby.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_42f4a /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crti.o /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtbegin.o -L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0 -L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_42f4a.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtend.o /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtn.o
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_42f4a' '-dumpdir' 'cmTC_42f4a.'
 
 
 
@@ -278,9 +278,9 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/aldebaran/display/test/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/aldebaran/display/zuim-clock/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/home/aldebaran/Appdata/Esp/espressif/tools/ninja/1.10.2/ninja cmTC_05260 && [1/2] Building CXX object CMakeFiles/cmTC_05260.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Run Build Command(s):/home/aldebaran/Appdata/Esp/espressif/tools/ninja/1.10.2/ninja cmTC_42f4a && [1/2] Building CXX object CMakeFiles/cmTC_42f4a.dir/CMakeCXXCompilerABI.cpp.obj]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++]
   ignore line: [Target: xtensa-esp32-elf]
@@ -288,8 +288,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 11.2.0 (crosstool-NG esp-2022r1) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_05260.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_05260.dir/']
-  ignore line: [ /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/cc1plus -quiet -v -iprefix /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/ /home/aldebaran/Appdata/Esp/espressif/tools/cmake/3.24.0/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_05260.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlongcalls -Wno-frame-address -version -o /tmp/ccaOwdTT.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_42f4a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_42f4a.dir/']
+  ignore line: [ /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/cc1plus -quiet -v -iprefix /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/ /home/aldebaran/Appdata/Esp/espressif/tools/cmake/3.24.0/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_42f4a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlongcalls -Wno-frame-address -version -o /tmp/ccObgyFz.s]
   ignore line: [GNU C++17 (crosstool-NG esp-2022r1) version 11.2.0 (xtensa-esp32-elf)]
   ignore line: [	compiled by GNU C version 4.9.2  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -316,12 +316,12 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 69ef0c26a581aece6835fdfb15e451af]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_05260.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_05260.dir/']
-  ignore line: [ /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_05260.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccaOwdTT.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_42f4a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_42f4a.dir/']
+  ignore line: [ /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_42f4a.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccObgyFz.s]
   ignore line: [COMPILER_PATH=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/bin/]
   ignore line: [LIBRARY_PATH=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_05260.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_05260.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [[2/2] Linking CXX executable cmTC_05260]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_42f4a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_42f4a.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [[2/2] Linking CXX executable cmTC_42f4a]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++]
   ignore line: [COLLECT_LTO_WRAPPER=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/lto-wrapper]
@@ -332,27 +332,27 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 11.2.0 (crosstool-NG esp-2022r1) ]
   ignore line: [COMPILER_PATH=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/bin/]
   ignore line: [LIBRARY_PATH=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_05260' '-dumpdir' 'cmTC_05260.']
-  link line: [ /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/collect2 -plugin /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/liblto_plugin.so -plugin-opt=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccP6zWlI.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_05260 /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crti.o /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtbegin.o -L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0 -L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_05260.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtend.o /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_42f4a' '-dumpdir' 'cmTC_42f4a.']
+  link line: [ /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/collect2 -plugin /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/liblto_plugin.so -plugin-opt=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccf2xHby.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_42f4a /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crti.o /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtbegin.o -L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0 -L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_42f4a.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtend.o /home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtn.o]
     arg [/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/11.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccP6zWlI.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccf2xHby.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_05260] ==> ignore
+    arg [cmTC_42f4a] ==> ignore
     arg [/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib/crt0.o] ==> obj [/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib/crt0.o]
     arg [/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crti.o] ==> obj [/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crti.o]
     arg [/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtbegin.o] ==> obj [/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/crtbegin.o]
     arg [-L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0] ==> dir [/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0]
     arg [-L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc]
     arg [-L/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [/home/aldebaran/Appdata/Esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/lib]
-    arg [CMakeFiles/cmTC_05260.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [CMakeFiles/cmTC_42f4a.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]
@@ -377,42 +377,42 @@ Parsed CXX implicit link information from above output:
 
 
 Determining if the include file sys/types.h exists passed with the following output:
-Change Dir: /home/aldebaran/display/test/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aldebaran/display/zuim-clock/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/aldebaran/Appdata/Esp/espressif/tools/ninja/1.10.2/ninja cmTC_395d9 && [1/2] Building C object CMakeFiles/cmTC_395d9.dir/CheckIncludeFile.c.obj
-[2/2] Linking C executable cmTC_395d9
+Run Build Command(s):/home/aldebaran/Appdata/Esp/espressif/tools/ninja/1.10.2/ninja cmTC_31b15 && [1/2] Building C object CMakeFiles/cmTC_31b15.dir/CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_31b15
 
 
 
 Determining if the include file stdint.h exists passed with the following output:
-Change Dir: /home/aldebaran/display/test/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aldebaran/display/zuim-clock/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/aldebaran/Appdata/Esp/espressif/tools/ninja/1.10.2/ninja cmTC_6fe77 && [1/2] Building C object CMakeFiles/cmTC_6fe77.dir/CheckIncludeFile.c.obj
-[2/2] Linking C executable cmTC_6fe77
+Run Build Command(s):/home/aldebaran/Appdata/Esp/espressif/tools/ninja/1.10.2/ninja cmTC_7e580 && [1/2] Building C object CMakeFiles/cmTC_7e580.dir/CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_7e580
 
 
 
 Determining if the include file stddef.h exists passed with the following output:
-Change Dir: /home/aldebaran/display/test/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aldebaran/display/zuim-clock/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/aldebaran/Appdata/Esp/espressif/tools/ninja/1.10.2/ninja cmTC_76e16 && [1/2] Building C object CMakeFiles/cmTC_76e16.dir/CheckIncludeFile.c.obj
-[2/2] Linking C executable cmTC_76e16
+Run Build Command(s):/home/aldebaran/Appdata/Esp/espressif/tools/ninja/1.10.2/ninja cmTC_4e2ef && [1/2] Building C object CMakeFiles/cmTC_4e2ef.dir/CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_4e2ef
 
 
 
 Determining size of time_t passed with the following output:
-Change Dir: /home/aldebaran/display/test/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aldebaran/display/zuim-clock/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/aldebaran/Appdata/Esp/espressif/tools/ninja/1.10.2/ninja cmTC_36ece && [1/2] Building C object CMakeFiles/cmTC_36ece.dir/TIME_T_SIZE.c.obj
-[2/2] Linking C executable cmTC_36ece
+Run Build Command(s):/home/aldebaran/Appdata/Esp/espressif/tools/ninja/1.10.2/ninja cmTC_17eb6 && [1/2] Building C object CMakeFiles/cmTC_17eb6.dir/TIME_T_SIZE.c.obj
+[2/2] Linking C executable cmTC_17eb6
 
 
 
 Performing C SOURCE FILE Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS succeeded with the following output:
-Change Dir: /home/aldebaran/display/test/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aldebaran/display/zuim-clock/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/aldebaran/Appdata/Esp/espressif/tools/ninja/1.10.2/ninja cmTC_a1737 && [1/2] Building C object CMakeFiles/cmTC_a1737.dir/src.c.obj
-[2/2] Linking C executable cmTC_a1737
+Run Build Command(s):/home/aldebaran/Appdata/Esp/espressif/tools/ninja/1.10.2/ninja cmTC_ba533 && [1/2] Building C object CMakeFiles/cmTC_ba533.dir/src.c.obj
+[2/2] Linking C executable cmTC_ba533
 
 
 Source file was:

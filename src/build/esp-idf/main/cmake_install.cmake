@@ -1,4 +1,4 @@
-# Install script for directory: /home/aldebaran/display/test/main
+# Install script for directory: /home/aldebaran/display/zuim-clock/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

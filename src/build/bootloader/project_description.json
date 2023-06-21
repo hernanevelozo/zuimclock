@@ -1,8 +1,8 @@
 {
     "project_name":       "bootloader",
     "project_path":       "/home/aldebaran/Appdata/Esp/esp-idf/components/bootloader/subproject",
-    "build_dir":          "/home/aldebaran/display/test/build/bootloader",
-    "config_file":        "/home/aldebaran/display/test/sdkconfig",
+    "build_dir":          "/home/aldebaran/display/zuim-clock/build/bootloader",
+    "config_file":        "/home/aldebaran/display/zuim-clock/sdkconfig",
     "config_defaults":    "",
     "bootloader_elf":     "",
     "app_elf":            "bootloader.elf",

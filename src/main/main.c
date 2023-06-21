@@ -844,7 +844,10 @@ void pb_mode_actions(uint8_t *display_state, uint8_t *button_state, uint8_t pb_l
 		}
 		CURRENT_MODE = 3;
 		flush_display();
-		reset_timer();
+		if (TIMER_STARTED_COUNT == 0)
+		{
+			reset_timer();
+		}
 
 		xTaskCreate(
 			task_display_timer,
@@ -870,7 +873,10 @@ void pb_mode_actions(uint8_t *display_state, uint8_t *button_state, uint8_t pb_l
 		}
 		CURRENT_MODE = 4;
 		flush_display();
-		reset_chess_time();
+		if (CHESS_STARTED_COUNT == 0)
+		{
+			reset_chess_time();
+		}
 
 		xTaskCreate(
 			task_display_chess_clock,

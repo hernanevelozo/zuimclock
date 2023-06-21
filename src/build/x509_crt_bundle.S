@@ -1,4 +1,4 @@
-/* * Data converted from /home/aldebaran/display/test/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /home/aldebaran/display/zuim-clock/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded
