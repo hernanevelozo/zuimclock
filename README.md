@@ -14,23 +14,14 @@
 
 * [Dr. Mário Guimarães Buratto](https://www.escavador.com/sobre/4944016/mario-guimaraes-buratto)
 
-## Instruções de utilização 
-
-### SO, Linguagem e Versão
-- tba
+### SO e Linguagem 
+- Linguagem C
 - FreeRTOS
 
 ### Sistemas Operacionais testados
 - Ubuntu 22.04.1
 - Windows 11 v22H2
 
-### Importante
 
-```...
-```
-
-### Execução do projeto
-
-### Documentação
-
-### Código
+### Relatório Final
+[Relatorio_Final_ZUIMClock](https://github.com/hernanevelozo/zuimclock/files/11854217/220230623_Relatorio_Final_ZUIMClock.pdf)
